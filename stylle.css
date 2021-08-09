@@ -1,0 +1,16 @@
+.mydiv{
+   margin: 7% auto;
+   height: 190px;
+   width: 290px;
+   background: radial-gradient(rgb(255, 0, 0) 30%,rgb(0, 133, 71) 7%);
+
+   animation-name: Jaed;
+   animation-duration: 2s;
+   animation-iteration-count: 5;
+}
+
+@keyframes Jaed{
+   from{background-color: green;}
+   to{background-color: red;border-radius: 50%;}
+
+}
